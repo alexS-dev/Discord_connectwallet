@@ -7,11 +7,11 @@ import { useState, useEffect } from "react";
 
 function App() {
   // Initial Settings
-  const NETWORK = "Testnet";
+  const NETWORK = "Mainnet";
   const [BISON_SEQUENCER_ENDPOINT, setBISON_SEQUENCER_ENDPOINT] = useState(
-    "https://testnet.bisonlabs.io/sequencer_endpoint"
+    "https://app.bisonlabs.io/sequencer_endpoint"
   );
-  const [BOT_ENDPOINT, setBOT_ENDPOINT] = useState("http://localhost:5000");
+  const [BOT_ENDPOINT, setBOT_ENDPOINT] = useState("http://45.61.131.22:5000");
   const [ordinalsAddress, setOrdinalsAddress] = useState("");
   const [contracts, setContracts] = useState([]);
   const [tokenBalances, setTokenBalances] = useState("");
