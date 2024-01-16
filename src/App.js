@@ -146,7 +146,7 @@ function App() {
             LABB Blance:{" "}
             {contracts.map((contract, index) => {
               const balance =
-                contract.tick === "labb"
+                contract.tick === "LABB"
                   ? parseFloat(
                       (tokenBalances[contract.tick] || 0) / 100000000
                     ).toFixed(8)
